@@ -1,0 +1,110 @@
+*{margin: 0; padding: 0%;}
+.main{
+    border: solid 4px black;
+}
+.aboutbook{
+    border-top: solid 10px black;
+    height: 300px;
+}
+.aboutbook p{
+    margin-left: 17%;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 1%;
+}
+a:visited{
+    color: green;
+}
+a{
+    color: green;
+}
+
+.aboutbook h4{
+    color: green;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.aboutbook img{
+    margin-top: 0.5%;
+    border: solid 3px black;
+    float: left;
+}
+.aboutme{
+    margin-left: 88%;
+    
+}
+.mybook{
+    text-decoration: underline;
+    margin-left: 30%;
+    color: green;
+}
+.honor{
+    background-color: black;
+    font-family: cursive;
+}
+.aboutautor{
+    height: 310px;
+    
+    border-bottom: solid 10px black;
+}
+.aboutautor img{
+    margin-top: 0.5%;
+    float: left;
+}
+.book{
+    width: 200px;
+    height: 300px;
+    
+}
+.text{
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+    margin-top: 2%;
+}
+.text a{
+    margin-left: 90%;
+    color: green;
+}
+.seb{
+    text-decoration: underline;
+    margin-left: 93%;
+    font-size: 12px;
+    color: green;
+}
+.aboutautor img{
+    float: left;
+}
+.some  {
+    margin-left: 17%;
+    font-weight: bold;
+    font-size: 25px;
+}
+.some h4{
+    margin: 1%;
+    margin-top: 0;
+    margin-left: 0;
+}
+.autor{
+    width: 200px;
+    height: 300px;
+    border: solid 3px black;
+}
+.infoautor{
+    margin-top: 1%;
+}
+
+a{
+    text-decoration: none;
+}
+.rozdil h2{
+    text-decoration: underline;
+    color: green;
+
+}
+.rozdil p{
+    margin-top: 1;
+    margin-left: 5%;
+    text-decoration: underline;
+    color: green;
+}
