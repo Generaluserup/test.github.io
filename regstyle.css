@@ -9,6 +9,10 @@
 }
 .form p{
     align-content: center;
+
+}
+.polya>p{
+    margin-left: 5%;
 }
 .form input{
     margin: 5%;
