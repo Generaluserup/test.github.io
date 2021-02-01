@@ -1,0 +1,32 @@
+*{margin: 0; padding:0;}
+.form{
+    border: solid 5px black;
+    display: block;
+    width: 19.7%;
+    height: 95%;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+.form p{
+    align-content: center;
+}
+.form input{
+    margin: 5%;
+    width: 80%;
+}
+.group{
+    width: 80%;
+    margin: 5%;
+}
+.register{
+    margin-left: 55%;
+}
+section{
+    height:525px;
+}
+.zagolovok{
+    text-align: center;
+    color:white;
+    background: #000;
+    align-items: center;
+}
