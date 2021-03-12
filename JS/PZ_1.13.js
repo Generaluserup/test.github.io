@@ -1,4 +1,4 @@
-'use strict'
+
 //      TASK 1
 // let language = true;
 // let flag = true
@@ -127,8 +127,8 @@
 //     result.prototype.greet = function (greeting) {return `${greeting}, ${result.prototype.name}!`};
 //     return result;
 // }
-// const g = createGreetable('VladislavcheG');
-// console.log(g.prototype.greet('Salam'));
+// const g = createGreetable('People');
+// console.log(g.prototype.greet('Hello'));
 //      TASK 5
 //
 // function sequence(start, step) {
@@ -145,8 +145,8 @@
 
 //      TASK 6
 // let characters = [
-//     {name: "Valet", age: 20},
-//     {name: "Perdushnya", age: 24}
+//     {name: "Anton", age: 22},
+//     {name: "Sasha", age: 24}
 // ];
 //
 // function pluck(array) {
@@ -175,22 +175,22 @@
 //         return Math.round(( ( today - Date.parse(this.startDate)) / ( Date.parse(this.endDate) - Date.parse(this.startDate) ) ) * 100) + "%"
 //     }
 // }
-//
-// let t1 = new Task('Выучить вебку', 'Нужно работать!', 'Jan 8, 2021','Aug 30, 2021' )
+
+// let t1 = new Task('Выпускной', 'Празднование', 'Jan 8, 2021','Aug 30, 2021' )
 // console.log(t1)
-// console.log(t1.subtask())
+// console.log(t1.subtask());
 
 //     TASK 9
-// class Worker {
-//     constructor(name, surname, rate, days) {
-//         this.name = name
-//         this.surname = surname;
-//         this.rate = rate
-//         this.days = days
-//     }
-//     getSalary(){
-//         return this.rate * this.days
-//     }
-// }
-// let worker = new Worker('Vladislav', 'Borshch', 1000, 30)
-// console.log(worker.getSalary())
+class Worker {
+    constructor(name, surname, rate, days) {
+        this.name = name
+        this.surname = surname;
+        this.rate = rate
+        this.days = days
+    }
+    getSalary(){
+        return this.rate * this.days
+    }
+}
+let worker = new Worker('Vladislav', 'Borshch', 1000, 30)
+console.log(worker.getSalary())
