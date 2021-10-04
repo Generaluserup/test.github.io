@@ -315,16 +315,14 @@ default:
 // }
 // console.log(omg(prompt()));
 // ЗАДАНИЕ№10
-array = [12,'fast',1,"me",31,32];
-function mas(array) {
-    for (i = 0; i < array.length; i++) {
-        if (Number.isInteger(array[i])) {
-            array[i]*=array[i];
-        }
+// array = [12,'fast',1,"me",31,32];
+// function mas(array) {
+//     for (i = 0; i < array.length; i++) {
+//         if (Number.isInteger(array[i])) {
+//             array[i]*=array[i];
+//         }
         
-    } 
-    return array.reverse(); 
-}
-
-
-console.log(mas(array));
+//     } 
+//     return array.reverse(); 
+// }
+// console.log(mas(array));

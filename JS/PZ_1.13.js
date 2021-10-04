@@ -71,11 +71,50 @@
 //                 alert('Sunday')
 //                 break
 //             default: alert('Error here')
-//
+
 //         }
-//
+
 //     }
 // }
+
+// TASK 1(2)
+    // function task1() {
+    //     const dayOfWeek = {
+    //         dayEN: [ 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    //         dayUA: [ 'Понеділок', 'Вівторок', 'Середа', 'Четвер', 'П`ятниця', 'Субота', 'Неділя'],
+    //         lang: ['Ua','uA','ua','UA','EN','En','eN','en']
+    //     }
+    //     for (let i = 0; i < 1; i++){
+    //         let lang = prompt("Choose “ua” або “en”?", '').toLowerCase();
+    //         if ( lang === 'ua' || lang === 'en') {
+    //             if (lang === 'ua') {
+    //                 for (let y = 0; y < 1; y++) {
+    //                     let selDay =+ prompt('Введіть номер дня неділі від 1 до 7?', '')
+    //                     if (selDay <= 7) {
+    //                         alert(dayOfWeek.dayUA[selDay - 1])
+    //                     } else if ( selDay > 8 || selDay <= 0 ) {
+    //                         alert('mistake, try again')
+    //                         y--;
+    //                     }
+    //                 }
+    //             } else if (seLan === 'en') {
+    //                 for (let y = 0; y < 1; y++) {
+    //                     let selDay =+ prompt('Enter the day number of the week (from 1 to 7)?', '')
+    //                     if (selDay <= 7) {
+    //                         alert(dayOfWeek.dayEN[selDay - 1])
+    //                     } else if ( selDay > 8 || selDay <= 0 ) {
+    //                         alert('mistake, try again')
+    //                         y--;
+    //                     }
+    //                 }
+    //             }
+    //         } else {
+    //             alert('mistake, try again');
+    //             i--;
+    //         }
+    //     }
+    // }
+    // task1();
 
 //      TASK 2
 // function Board(length, width) {
@@ -181,16 +220,16 @@
 // console.log(t1.subtask());
 
 //     TASK 9
-class Worker {
-    constructor(name, surname, rate, days) {
-        this.name = name
-        this.surname = surname;
-        this.rate = rate
-        this.days = days
-    }
-    getSalary(){
-        return this.rate * this.days
-    }
-}
-let worker = new Worker('Vladislav', 'Borshch', 1000, 30)
-console.log(worker.getSalary())
+// class Worker {
+//     constructor(name, surname, rate, days) {
+//         this.name = name
+//         this.surname = surname;
+//         this.rate = rate
+//         this.days = days
+//     }
+//     getSalary(){
+//         return this.rate * this.days
+//     }
+// }
+// let worker = new Worker('Vladislav', 'Borshch', 1000, 30)
+// console.log(worker.getSalary())
